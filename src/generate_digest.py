@@ -6,14 +6,20 @@ Main orchestrator that ties together fetching, ranking, and formatting.
 import json
 import logging
 import os
+import sys
 from datetime import datetime
+from pathlib import Path
 from typing import Any, Dict, List
 
 import yaml
-from utils import create_html_digest, format_authors, save_read_papers
 
 from fetch_papers import ArxivFetcher
 from rank_papers import PaperRanker
+from utils import create_html_digest, format_authors, save_read_papers
+
+# Get project root directory (parent of src/)
+PROJECT_ROOT = Path(__file__).parent.parent
+os.chdir(PROJECT_ROOT)
 
 logging.basicConfig(
     level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"

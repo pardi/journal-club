@@ -1,196 +1,188 @@
 # arXiv Paper Digest - 2026-01-13
 
-*Generated on 2026-01-13 15:46:28*
+*Generated on 2026-01-13 16:34:05*
 
 Found 10 relevant papers.
 
 ---
 
-## 1. [PointWorld: Scaling 3D World Models for In-The-Wild Robotic Manipulation](http://arxiv.org/abs/2601.03782v1)
+## 1. [Smooth Operator: Smooth Verifiable Reward Activates Spatial Reasoning Ability of Vision-Language Model](http://arxiv.org/abs/2601.07695v1)
 
-**Authors:** Wenlong Huang, Yu-Wei Chao, Arsalan Mousavian, Ming-Yu Liu, Dieter Fox, et al. (+2 more)
-
-**Published:** 2026-01-07
-
-**Categories:** cs.RO, cs.AI, cs.CV
-
-**Relevance Score:** 0.663
- (Keyword matches: 1)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** Humans anticipate, from a glance and a contemplated action of their bodies, how the 3D world will respond, a capability that is equally vital for robotic manipulation. We introduce PointWorld, a large pre-trained 3D world model that unifies state and action in a shared 3D space as 3D point flows: gi...
-
-[PDF](https://arxiv.org/pdf/2601.03782v1) | [arXiv](http://arxiv.org/abs/2601.03782v1)
-
----
-
-## 2. [UniBiDex: A Unified Teleoperation Framework for Robotic Bimanual Dexterous Manipulation](http://arxiv.org/abs/2601.04629v1)
-
-**Authors:** Zhongxuan Li, Zeliang Guo, Jun Hu, David Navarro-Alarcon, Jia Pan, et al. (+2 more)
-
-**Published:** 2026-01-08
-
-**Categories:** cs.RO
-
-**Relevance Score:** 0.646
- (Keyword matches: 2)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** We present UniBiDex a unified teleoperation framework for robotic bimanual dexterous manipulation that supports both VRbased and leaderfollower input modalities UniBiDex enables realtime contactrich dualarm teleoperation by integrating heterogeneous input devices into a shared control stack with con...
-
-[PDF](https://arxiv.org/pdf/2601.04629v1) | [arXiv](http://arxiv.org/abs/2601.04629v1)
-
----
-
-## 3. [Heterogeneous Multi-Expert Reinforcement Learning for Long-Horizon Multi-Goal Tasks in Autonomous Forklifts](http://arxiv.org/abs/2601.07304v1)
-
-**Authors:** Yun Chen, Bowei Huang, Fan Guo, Kang Song
+**Authors:** Siwen Jiao, Tianxiong Lv, Kangan Qian, Chenxu Zhao, Xiuyuan Zhu, et al. (+5 more)
 
 **Published:** 2026-01-12
 
-**Categories:** cs.RO, cs.AI
+**Categories:** cs.CV
 
-**Relevance Score:** 0.637
- (Keyword matches: 1)
+**Relevance Score:** 0.450
 
-**Topic:** Robotics Manipulation
+**Topic:** Computer Vision
 
-**Abstract:** Autonomous mobile manipulation in unstructured warehouses requires a balance between efficient large-scale navigation and high-precision object interaction. Traditional end-to-end learning approaches often struggle to handle the conflicting demands of these distinct phases. Navigation relies on robu...
+**Abstract:** Vision-Language Models (VLMs) face a critical bottleneck in achieving precise numerical prediction for 3D scene understanding. Traditional reinforcement learning (RL) approaches, primarily based on relative ranking, often suffer from severe reward sparsity and gradient instability, failing to effect...
 
-[PDF](https://arxiv.org/pdf/2601.07304v1) | [arXiv](http://arxiv.org/abs/2601.07304v1)
+[PDF](https://arxiv.org/pdf/2601.07695v1) | [arXiv](http://arxiv.org/abs/2601.07695v1)
 
 ---
 
-## 4. [Generate, Transfer, Adapt: Learning Functional Dexterous Grasping from a Single Human Demonstration](http://arxiv.org/abs/2601.05243v1)
+## 2. [Assembling Solar Panels by Dual Robot Arms Towards Full Autonomous Lunar Base Construction](http://arxiv.org/abs/2601.05491v1)
 
-**Authors:** Xingyi He, Adhitya Polavaram, Yunhao Cao, Om Deshmukh, Tianrui Wang, et al. (+2 more)
+**Authors:** Luca Nunziante, Kentaro Uno, Gustavo H. Diaz, Shreya Santra, Alessandro De Luca, et al. (+1 more)
 
-**Published:** 2026-01-08
+**Published:** 2026-01-09
 
-**Categories:** cs.RO, cs.CV
+**Categories:** cs.RO
 
-**Relevance Score:** 0.634
+**Relevance Score:** 0.443
+
+**Topic:** Robotics Manipulation
+
+**Abstract:** Since the successful Apollo program, humanity is once again aiming to return to the Moon for scientific discovery, resource mining, and inhabitation. Upcoming decades focus on building a lunar outpost, with robotic systems playing a crucial role to safely and efficiently establish essential infrastr...
+
+[PDF](https://arxiv.org/pdf/2601.05491v1) | [arXiv](http://arxiv.org/abs/2601.05491v1)
+
+---
+
+## 3. [Staged Voxel-Level Deep Reinforcement Learning for 3D Medical Image Segmentation with Noisy Annotations](http://arxiv.org/abs/2601.03875v1)
+
+**Authors:** Yuyang Fu, Xiuzhen Guo, Ji Shi
+
+**Published:** 2026-01-07
+
+**Categories:** eess.IV, cs.CV
+
+**Relevance Score:** 0.443
  (Keyword matches: 2)
 
-**Topic:** Robotics Manipulation
+**Topic:** Computer Vision
 
-**Abstract:** Functional grasping with dexterous robotic hands is a key capability for enabling tool use and complex manipulation, yet progress has been constrained by two persistent bottlenecks: the scarcity of large-scale datasets and the absence of integrated semantic and geometric reasoning in learned models....
+**Abstract:** Deep learning has achieved significant advancements in medical image segmentation. Currently, obtaining accurate segmentation outcomes is critically reliant on large-scale datasets with high-quality annotations. However, noisy annotations are frequently encountered owing to the complex morphological...
 
-[PDF](https://arxiv.org/pdf/2601.05243v1) | [arXiv](http://arxiv.org/abs/2601.05243v1)
+[PDF](https://arxiv.org/pdf/2601.03875v1) | [arXiv](http://arxiv.org/abs/2601.03875v1)
 
 ---
 
-## 5. [PALM: Progress-Aware Policy Learning via Affordance Reasoning for Long-Horizon Robotic Manipulation](http://arxiv.org/abs/2601.07060v1)
+## 4. [Robotic Tele-Operation for Upper Aerodigestive Tract Microsurgery: System Design and Validation](http://arxiv.org/abs/2601.06617v1)
 
-**Authors:** Yuanzhe Liu, Jingyuan Zhu, Yuchen Mo, Gen Li, Xu Cao, et al. (+7 more)
+**Authors:** Giovani Braglia, José Jair Alves Mendes Junior, Augusto Tetsuo Prado Inafuco, Federico Mariano, Leonardo S. Mattos
+
+**Published:** 2026-01-10
+
+**Categories:** cs.RO
+
+**Relevance Score:** 0.441
+
+**Topic:** Robotics Manipulation
+
+**Abstract:** Upper aerodigestive tract (UADT) treatments frequently employ transoral laser microsurgery (TLM) for procedures such as the removal of tumors or polyps. In TLM, a laser beam is used to cut target tissue, while forceps are employed to grasp, manipulate, and stabilize tissue within the UADT. Although ...
+
+[PDF](https://arxiv.org/pdf/2601.06617v1) | [arXiv](http://arxiv.org/abs/2601.06617v1)
+
+---
+
+## 5. [CoINS: Counterfactual Interactive Navigation via Skill-Aware VLM](http://arxiv.org/abs/2601.03956v1)
+
+**Authors:** Kangjie Zhou, Zhejia Wen, Zhiyong Zhuo, Zike Yan, Pengying Wu, et al. (+7 more)
+
+**Published:** 2026-01-07
+
+**Categories:** cs.RO
+
+**Relevance Score:** 0.440
+
+**Topic:** Robotics Manipulation
+
+**Abstract:** Recent Vision-Language Models (VLMs) have demonstrated significant potential in robotic planning. However, they typically function as semantic reasoners, lacking an intrinsic understanding of the specific robot's physical capabilities. This limitation is particularly critical in interactive navigati...
+
+[PDF](https://arxiv.org/pdf/2601.03956v1) | [arXiv](http://arxiv.org/abs/2601.03956v1)
+
+---
+
+## 6. [MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation](http://arxiv.org/abs/2601.06874v1)
+
+**Authors:** Changli Wu, Haodong Wang, Jiayi Ji, Yutian Yao, Chunsai Du, et al. (+3 more)
 
 **Published:** 2026-01-11
 
-**Categories:** cs.RO
+**Categories:** cs.CV
 
-**Relevance Score:** 0.629
- (Keyword matches: 1)
+**Relevance Score:** 0.439
 
-**Topic:** Robotics Manipulation
+**Topic:** Computer Vision
 
-**Abstract:** Recent advancements in vision-language-action (VLA) models have shown promise in robotic manipulation, yet they continue to struggle with long-horizon, multi-step tasks. Existing methods lack internal reasoning mechanisms that can identify task-relevant interaction cues or track progress within a su...
+**Abstract:** Most existing 3D referring expression segmentation (3DRES) methods rely on dense, high-quality point clouds, while real-world agents such as robots and mobile phones operate with only a few sparse RGB views and strict latency constraints. We introduce Multi-view 3D Referring Expression Segmentation ...
 
-[PDF](https://arxiv.org/pdf/2601.07060v1) | [arXiv](http://arxiv.org/abs/2601.07060v1)
-
----
-
-## 6. [Failure-Aware RL: Reliable Offline-to-Online Reinforcement Learning with Self-Recovery for Real-World Manipulation](http://arxiv.org/abs/2601.07821v1)
-
-**Authors:** Huanyu Li, Kun Lei, Sheng Zang, Kaizhe Hu, Yongyuan Liang, et al. (+3 more)
-
-**Published:** 2026-01-12
-
-**Categories:** cs.RO, cs.AI, cs.LG
-
-**Relevance Score:** 0.619
- (Keyword matches: 2)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** Post-training algorithms based on deep reinforcement learning can push the limits of robotic models for specific objectives, such as generalizability, accuracy, and robustness. However, Intervention-requiring Failures (IR Failures) (e.g., a robot spilling water or breaking fragile glass) during real...
-
-[PDF](https://arxiv.org/pdf/2601.07821v1) | [arXiv](http://arxiv.org/abs/2601.07821v1)
+[PDF](https://arxiv.org/pdf/2601.06874v1) | [arXiv](http://arxiv.org/abs/2601.06874v1)
 
 ---
 
-## 7. [DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation](http://arxiv.org/abs/2601.05844v1)
+## 7. [CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos](http://arxiv.org/abs/2601.04061v1)
 
-**Authors:** Yutong Liang, Shiyi Xu, Yulong Zhang, Bowen Zhan, He Zhang, et al. (+1 more)
-
-**Published:** 2026-01-09
-
-**Categories:** cs.GR, cs.AI, cs.RO
-
-**Relevance Score:** 0.617
- (Keyword matches: 2)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** Capturing fine-grained hand-object interactions is challenging due to severe self-occlusion from closely spaced fingers and the subtlety of in-hand manipulation motions. Existing optical motion capture systems rely on expensive camera setups and extensive manual post-processing, while low-cost visio...
-
-[PDF](https://arxiv.org/pdf/2601.05844v1) | [arXiv](http://arxiv.org/abs/2601.05844v1)
-
----
-
-## 8. [TOSC: Task-Oriented Shape Completion for Open-World Dexterous Grasp Generation from Partial Point Clouds](http://arxiv.org/abs/2601.05499v1)
-
-**Authors:** Weishang Wu, Yifei Shi, Zhiping Cai
-
-**Published:** 2026-01-09
-
-**Categories:** cs.RO
-
-**Relevance Score:** 0.607
- (Keyword matches: 1)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** Task-oriented dexterous grasping remains challenging in robotic manipulations of open-world objects under severe partial observation, where significant missing data invalidates generic shape completion. In this paper, to overcome this limitation, we study Task-Oriented Shape Completion, a new task t...
-
-[PDF](https://arxiv.org/pdf/2601.05499v1) | [arXiv](http://arxiv.org/abs/2601.05499v1)
-
----
-
-## 9. [RoboVIP: Multi-View Video Generation with Visual Identity Prompting Augments Robot Manipulation](http://arxiv.org/abs/2601.05241v1)
-
-**Authors:** Boyang Wang, Haoran Zhang, Shujie Zhang, Jinkun Hao, Mingda Jia, et al. (+6 more)
-
-**Published:** 2026-01-08
-
-**Categories:** cs.CV, cs.AI, cs.RO
-
-**Relevance Score:** 0.580
- (Keyword matches: 1)
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** The diversity, quantity, and quality of manipulation data are critical for training effective robot policies. However, due to hardware and physical setup constraints, collecting large-scale real-world manipulation data remains difficult to scale across diverse environments. Recent work uses text-pro...
-
-[PDF](https://arxiv.org/pdf/2601.05241v1) | [arXiv](http://arxiv.org/abs/2601.05241v1)
-
----
-
-## 10. [UNIC: Learning Unified Multimodal Extrinsic Contact Estimation](http://arxiv.org/abs/2601.04356v1)
-
-**Authors:** Zhengtong Xu, Yuki Shirai
+**Authors:** Chubin Zhang, Jianan Wang, Zifeng Gao, Yue Su, Tianru Dai, et al. (+3 more)
 
 **Published:** 2026-01-07
 
-**Categories:** cs.RO, cs.AI, cs.CV
+**Categories:** cs.RO, cs.CV
 
-**Relevance Score:** 0.548
+**Relevance Score:** 0.437
 
 **Topic:** Robotics Manipulation
 
-**Abstract:** Contact-rich manipulation requires reliable estimation of extrinsic contacts-the interactions between a grasped object and its environment which provide essential contextual information for planning, control, and policy learning. However, existing approaches often rely on restrictive assumptions, su...
+**Abstract:** Generalist Vision-Language-Action models are currently hindered by the scarcity of robotic data compared to the abundance of human video demonstrations. Existing Latent Action Models attempt to leverage video data but often suffer from visual entanglement, capturing noise rather than manipulation sk...
 
-[PDF](https://arxiv.org/pdf/2601.04356v1) | [arXiv](http://arxiv.org/abs/2601.04356v1)
+[PDF](https://arxiv.org/pdf/2601.04061v1) | [arXiv](http://arxiv.org/abs/2601.04061v1)
+
+---
+
+## 8. [VerseCrafter: Dynamic Realistic Video World Model with 4D Geometric Control](http://arxiv.org/abs/2601.05138v1)
+
+**Authors:** Sixiao Zheng, Minghao Yin, Wenbo Hu, Xiaoyu Li, Ying Shan, et al. (+1 more)
+
+**Published:** 2026-01-08
+
+**Categories:** cs.CV
+
+**Relevance Score:** 0.434
+
+**Topic:** Computer Vision
+
+**Abstract:** Video world models aim to simulate dynamic, real-world environments, yet existing methods struggle to provide unified and precise control over camera and multi-object motion, as videos inherently operate dynamics in the projected 2D image plane. To bridge this gap, we introduce VerseCrafter, a 4D-aw...
+
+[PDF](https://arxiv.org/pdf/2601.05138v1) | [arXiv](http://arxiv.org/abs/2601.05138v1)
+
+---
+
+## 9. [3D-Agent:Tri-Modal Multi-Agent Collaboration for Scalable 3D Object Annotation](http://arxiv.org/abs/2601.04404v1)
+
+**Authors:** Jusheng Zhang, Yijia Fan, Zimo Wen, Jian Wang, Keze Wang
+
+**Published:** 2026-01-07
+
+**Categories:** cs.CV, cs.AI
+
+**Relevance Score:** 0.427
+
+**Topic:** Computer Vision
+
+**Abstract:** Driven by applications in autonomous driving robotics and augmented reality 3D object annotation presents challenges beyond 2D annotation including spatial complexity occlusion and viewpoint inconsistency Existing approaches based on single models often struggle to address these issues effectively W...
+
+[PDF](https://arxiv.org/pdf/2601.04404v1) | [arXiv](http://arxiv.org/abs/2601.04404v1)
+
+---
+
+## 10. [LaST$_{0}$: Latent Spatio-Temporal Chain-of-Thought for Robotic Vision-Language-Action Model](http://arxiv.org/abs/2601.05248v1)
+
+**Authors:** Zhuoyang Liu, Jiaming Liu, Hao Chen, Ziyu Guo, Chengkai Hou, et al. (+8 more)
+
+**Published:** 2026-01-08
+
+**Categories:** cs.RO
+
+**Relevance Score:** 0.426
+
+**Topic:** Robotics Manipulation
+
+**Abstract:** Vision-Language-Action (VLA) models have recently demonstrated strong generalization capabilities in robotic manipulation. Some existing VLA approaches attempt to improve action accuracy by explicitly generating linguistic reasoning traces or future visual observations before action execution. Howev...
+
+[PDF](https://arxiv.org/pdf/2601.05248v1) | [arXiv](http://arxiv.org/abs/2601.05248v1)
 
 ---

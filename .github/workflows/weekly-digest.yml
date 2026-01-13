@@ -3,8 +3,8 @@ name: Weekly Paper Digest
 on:
   schedule:
     # Run every Monday at 9 AM UTC
-    - cron: '0 9 * * 1'
-  workflow_dispatch:  # Allow manual trigger
+    - cron: "0 9 * * 1"
+  workflow_dispatch: # Allow manual trigger
 
 jobs:
   generate-digest:
@@ -14,13 +14,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Fetch all history for proper git operations
+          fetch-depth: 0 # Fetch all history for proper git operations
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
-          cache: 'pip'
+          python-version: "3.10"
+          cache: "pip"
 
       - name: Install dependencies
         run: |
@@ -29,8 +29,7 @@ jobs:
 
       - name: Generate digest
         run: |
-          cd src
-          python generate_digest.py
+          python src/generate_digest.py
 
       - name: Commit and push results
         run: |

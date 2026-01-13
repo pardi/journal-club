@@ -6,8 +6,9 @@ topics:
       - manipulation
       - grasping
       - dexterous
-      - robotic hand
       - pick and place
+      - imitation learning
+      - reinforcement learning
 
   - name: "Computer Vision"
     query: "cat:cs.CV AND (3D OR reconstruction OR SLAM)"

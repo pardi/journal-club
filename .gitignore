@@ -43,6 +43,3 @@ models/
 
 # Logs
 *.log
-
-output/
-data/
