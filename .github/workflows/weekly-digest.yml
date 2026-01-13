@@ -9,12 +9,15 @@ on:
 jobs:
   generate-digest:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push commits
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Fetch all history for proper git operations
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v4
