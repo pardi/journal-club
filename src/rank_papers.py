@@ -184,6 +184,7 @@ class PaperRanker:
         keyword_bonus: float = 0.05,
         recency_weight: float = 0.1,
         filter_read: bool = True,
+        read_papers_file: str = "data/read_papers.json",
     ) -> List[Dict[str, Any]]:
         """
         Rank papers by relevance.
@@ -196,6 +197,7 @@ class PaperRanker:
             keyword_bonus: Bonus score per keyword match
             recency_weight: Weight for recency scoring
             filter_read: Whether to filter out previously read papers
+            read_papers_file: Path to file tracking read papers
 
         Returns:
             Ranked list of top papers
@@ -206,7 +208,7 @@ class PaperRanker:
 
         # Filter read papers
         if filter_read:
-            papers = self.filter_read_papers(papers)
+            papers = self.filter_read_papers(papers, read_papers_file)
 
         if not papers:
             logger.warning("No new papers after filtering")

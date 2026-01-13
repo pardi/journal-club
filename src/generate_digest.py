@@ -35,9 +35,14 @@ class DigestGenerator:
         Initialize the digest generator.
 
         Args:
-            config_file: Path to configuration file
+            config_file: Path to configuration file (relative to project root)
         """
-        self.config_file = config_file
+        # Convert to absolute path if relative
+        if not Path(config_file).is_absolute():
+            self.config_file = str(PROJECT_ROOT / config_file)
+        else:
+            self.config_file = config_file
+
         self.config = self.load_config()
         self.fetcher = ArxivFetcher(days_back=7, max_results=100)
         self.ranker = PaperRanker()
@@ -91,6 +96,9 @@ class DigestGenerator:
         for topic in self.config.get("topics", []):
             all_keywords.extend(topic.get("keywords", []))
 
+        # Use absolute path for read_papers file
+        read_papers_file = str(PROJECT_ROOT / "data" / "read_papers.json")
+
         ranked_papers = self.ranker.rank_papers(
             papers,
             keywords=all_keywords,
@@ -99,6 +107,7 @@ class DigestGenerator:
             keyword_bonus=ranking_config.get("keyword_bonus", 0.05),
             recency_weight=ranking_config.get("recency_weight", 0.1),
             filter_read=True,
+            read_papers_file=read_papers_file,
         )
 
         return ranked_papers
@@ -209,20 +218,27 @@ class DigestGenerator:
         # Generate outputs
         date_str = datetime.now().strftime("%Y-%m-%d")
 
+        # Use absolute paths for output files
+        output_dir = PROJECT_ROOT / "output"
+        data_dir = PROJECT_ROOT / "data"
+
         # Markdown digest
-        md_file = f"output/digest_{date_str}.md"
+        md_file = str(output_dir / f"digest_{date_str}.md")
         self.generate_markdown_digest(ranked_papers, md_file)
 
         # Also create a "latest" version
-        latest_file = "output/digest_latest.md"
+        latest_file = str(output_dir / "digest_latest.md")
         self.generate_markdown_digest(ranked_papers, latest_file)
 
         # HTML digest
-        html_file = f"output/digest_{date_str}.html"
+        html_file = str(output_dir / f"digest_{date_str}.html")
         create_html_digest(ranked_papers, html_file)
 
         # Update read papers
-        save_read_papers([p["id"] for p in ranked_papers])
+        save_read_papers(
+            [p["id"] for p in ranked_papers],
+            data_file=str(data_dir / "read_papers.json"),
+        )
 
         logger.info("=" * 60)
         logger.info(f"Digest generation complete!")
