@@ -1,0 +1,43 @@
+topics:
+  - name: "Robotics Manipulation"
+    query: "cat:cs.RO AND (manipulation OR grasping OR dexterous)"
+    categories: ["cs.RO", "cs.CV"]
+    keywords:
+      - manipulation
+      - grasping
+      - dexterous
+      - robotic hand
+      - pick and place
+
+  - name: "Computer Vision"
+    query: "cat:cs.CV AND (3D OR reconstruction OR SLAM)"
+    categories: ["cs.CV"]
+    keywords:
+      - 3D reconstruction
+      - SLAM
+      - visual odometry
+      - structure from motion
+      - depth estimation
+
+  - name: "Machine Learning"
+    query: "cat:cs.LG AND (reinforcement learning OR deep learning OR neural networks)"
+    categories: ["cs.LG", "cs.AI"]
+    keywords:
+      - reinforcement learning
+      - deep learning
+      - neural networks
+      - transformers
+      - attention mechanism
+
+# Ranking configuration
+ranking:
+  min_relevance_threshold: 0.3
+  top_n_papers: 10
+  recency_weight: 0.1
+  keyword_bonus: 0.05
+
+# Research interest description (used for semantic similarity)
+research_interests: |
+  I am interested in robotics manipulation, computer vision for 3D scene understanding,
+  and machine learning approaches for robotic control. Specifically, I focus on dexterous
+  manipulation, grasp planning, visual servoing, and reinforcement learning for robotics.
