@@ -2,6 +2,12 @@
 
 A free, automated system to curate weekly/daily must-read research papers from arXiv based on your research interests.
 
+## 🔗 View Latest Digest
+
+**Live Site:** https://pardi.github.io/journal-club/
+
+The digests are automatically updated every Monday at 9 AM UTC.
+
 ## Features
 
 - Automatically fetch papers from arXiv based on configurable topics
