@@ -1,189 +1,187 @@
 # arXiv Paper Digest - 2026-01-13
 
-*Generated on 2026-01-13 16:40:27*
+*Generated on 2026-01-13 17:32:41*
 
 Found 10 relevant papers.
 
 ---
 
-## 1. [Learning Dynamic Collaborative Network for Semi-supervised 3D Vessel Segmentation](http://arxiv.org/abs/2601.07377v1)
+## 1. [UniLiPs: Unified LiDAR Pseudo-Labeling with Geometry-Grounded Dynamic Scene Decomposition](http://arxiv.org/abs/2601.05105v1)
 
-**Authors:** Jiao Xu, Xin Chen, Lihe Zhang
-
-**Published:** 2026-01-12
-
-**Categories:** cs.CV, cs.AI
-
-**Relevance Score:** 0.399
-
-**Topic:** Computer Vision
-
-**Abstract:** In this paper, we present a new dynamic collaborative network for semi-supervised 3D vessel segmentation, termed DiCo. Conventional mean teacher (MT) methods typically employ a static approach, where the roles of the teacher and student models are fixed. However, due to the complexity of 3D vessel d...
-
-[PDF](https://arxiv.org/pdf/2601.07377v1) | [arXiv](http://arxiv.org/abs/2601.07377v1)
-
----
-
-## 2. [Task Prototype-Based Knowledge Retrieval for Multi-Task Learning from Partially Annotated Data](http://arxiv.org/abs/2601.07474v1)
-
-**Authors:** Youngmin Oh, Hyung-Il Kim, Jung Uk Kim
-
-**Published:** 2026-01-12
-
-**Categories:** cs.LG, cs.AI, cs.CV
-
-**Relevance Score:** 0.398
-
-**Topic:** Machine Learning
-
-**Abstract:** Multi-task learning (MTL) is critical in real-world applications such as autonomous driving and robotics, enabling simultaneous handling of diverse tasks. However, obtaining fully annotated data for all tasks is impractical due to labeling costs. Existing methods for partially labeled MTL typically ...
-
-[PDF](https://arxiv.org/pdf/2601.07474v1) | [arXiv](http://arxiv.org/abs/2601.07474v1)
-
----
-
-## 3. [SPINE Gripper: A Twisted Underactuated Mechanism-based Passive Mode-Transition Gripper](http://arxiv.org/abs/2601.06833v1)
-
-**Authors:** JaeHyung Jang, JunHyeong Park, Joong-Ku Lee, Jee-Hwan Ryu
-
-**Published:** 2026-01-11
-
-**Categories:** cs.RO
-
-**Relevance Score:** 0.395
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** This paper presents a single-actuator passive gripper that achieves both stable grasping and continuous bidirectional in-hand rotation through mechanically encoded power transmission logic. Unlike conventional multifunctional grippers that require multiple actuators, sensors, or control-based switch...
-
-[PDF](https://arxiv.org/pdf/2601.06833v1) | [arXiv](http://arxiv.org/abs/2601.06833v1)
-
----
-
-## 4. [Wow, wo, val! A Comprehensive Embodied World Model Evaluation Turing Test](http://arxiv.org/abs/2601.04137v1)
-
-**Authors:** Chun-Kai Fan, Xiaowei Chi, Xiaozhu Ju, Hao Li, Yong Bao, et al. (+16 more)
-
-**Published:** 2026-01-07
-
-**Categories:** cs.RO, cs.AI, cs.CV
-
-**Relevance Score:** 0.394
-
-**Topic:** Robotics Manipulation
-
-**Abstract:** As world models gain momentum in Embodied AI, an increasing number of works explore using video foundation models as predictive world models for downstream embodied tasks like 3D prediction or interactive generation. However, before exploring these downstream tasks, video foundation models still hav...
-
-[PDF](https://arxiv.org/pdf/2601.04137v1) | [arXiv](http://arxiv.org/abs/2601.04137v1)
-
----
-
-## 5. [MoE3D: A Mixture-of-Experts Module for 3D Reconstruction](http://arxiv.org/abs/2601.05208v2)
-
-**Authors:** Zichen Wang, Ang Cao, Liam J. Wang, Jeong Joon Park
+**Authors:** Filippo Ghilotti, Samuel Brucker, Nahku Saidy, Matteo Matteucci, Mario Bijelic, et al. (+1 more)
 
 **Published:** 2026-01-08
 
 **Categories:** cs.CV
 
-**Relevance Score:** 0.393
- (Keyword matches: 1)
+**Relevance Score:** 0.378
 
 **Topic:** Computer Vision
 
-**Abstract:** We propose a simple yet effective approach to enhance the performance of feed-forward 3D reconstruction models. Existing methods often struggle near depth discontinuities, where standard regression losses encourage spatial averaging and thus blur sharp boundaries. To address this issue, we introduce...
+**Abstract:** Unlabeled LiDAR logs, in autonomous driving applications, are inherently a gold mine of dense 3D geometry hiding in plain sight - yet they are almost useless without human labels, highlighting a dominant cost barrier for autonomous-perception research. In this work we tackle this bottleneck by lever...
 
-[PDF](https://arxiv.org/pdf/2601.05208v2) | [arXiv](http://arxiv.org/abs/2601.05208v2)
+[PDF](https://arxiv.org/pdf/2601.05105v1) | [arXiv](http://arxiv.org/abs/2601.05105v1)
 
 ---
 
-## 6. [On the Non-decoupling of Supervised Fine-tuning and Reinforcement Learning in Post-training](http://arxiv.org/abs/2601.07389v1)
+## 2. [SceneNAT: Masked Generative Modeling for Language-Guided Indoor Scene Synthesis](http://arxiv.org/abs/2601.07218v1)
 
-**Authors:** Xueyan Niu, Bo Bai, Wei Han, Weixi Zhang
+**Authors:** Jeongjun Choi, Yeonsoo Park, H. Jin Kim
 
 **Published:** 2026-01-12
 
-**Categories:** cs.LG, cs.AI, cs.IT
-
-**Relevance Score:** 0.389
- (Keyword matches: 2)
-
-**Topic:** Machine Learning
-
-**Abstract:** Post-training of large language models routinely interleaves supervised fine-tuning (SFT) with reinforcement learning (RL). These two methods have different objectives: SFT minimizes the cross-entropy loss between model outputs and expert responses, while RL maximizes reward signals derived from hum...
-
-[PDF](https://arxiv.org/pdf/2601.07389v1) | [arXiv](http://arxiv.org/abs/2601.07389v1)
-
----
-
-## 7. [A Comparative Study of 3D Model Acquisition Methods for Synthetic Data Generation of Agricultural Products](http://arxiv.org/abs/2601.03784v1)
-
-**Authors:** Steven Moonen, Rob Salaets, Kenneth Batstone, Abdellatif Bey-Temsamani, Nick Michiels
-
-**Published:** 2026-01-07
-
 **Categories:** cs.CV
 
-**Relevance Score:** 0.388
+**Relevance Score:** 0.369
 
 **Topic:** Computer Vision
 
-**Abstract:** In the manufacturing industry, computer vision systems based on artificial intelligence (AI) are widely used to reduce costs and increase production. Training these AI models requires a large amount of training data that is costly to acquire and annotate, especially in high-variance, low-volume manu...
+**Abstract:** We present SceneNAT, a single-stage masked non-autoregressive Transformer that synthesizes complete 3D indoor scenes from natural language instructions through only a few parallel decoding passes, offering improved performance and efficiency compared to prior state-of-the-art approaches. SceneNAT is...
 
-[PDF](https://arxiv.org/pdf/2601.03784v1) | [arXiv](http://arxiv.org/abs/2601.03784v1)
+[PDF](https://arxiv.org/pdf/2601.07218v1) | [arXiv](http://arxiv.org/abs/2601.07218v1)
 
 ---
 
-## 8. [Controlling Multimodal Conversational Agents with Coverage-Enhanced Latent Actions](http://arxiv.org/abs/2601.07516v1)
+## 3. [Optimal Learning Rate Schedule for Balancing Effort and Performance](http://arxiv.org/abs/2601.07830v1)
 
-**Authors:** Yongqi Li, Hao Lang, Tieyun Qian, Yongbin Li
+**Authors:** Valentina Njaradi, Rodrigo Carrasco-Davis, Peter E. Latham, Andrew Saxe
 
 **Published:** 2026-01-12
 
-**Categories:** cs.CL, cs.AI, cs.LG
+**Categories:** cs.LG, cs.NE, q-bio.NC
 
-**Relevance Score:** 0.387
+**Relevance Score:** 0.368
 
 **Topic:** Machine Learning
 
-**Abstract:** Vision-language models are increasingly employed as multimodal conversational agents (MCAs) for diverse conversational tasks. Recently, reinforcement learning (RL) has been widely explored for adapting MCAs to various human-AI interaction scenarios. Despite showing great enhancement in generalizatio...
+**Abstract:** Learning how to learn efficiently is a fundamental challenge for biological agents and a growing concern for artificial ones. To learn effectively, an agent must regulate its learning speed, balancing the benefits of rapid improvement against the costs of effort, instability, or resource use. We int...
 
-[PDF](https://arxiv.org/pdf/2601.07516v1) | [arXiv](http://arxiv.org/abs/2601.07516v1)
+[PDF](https://arxiv.org/pdf/2601.07830v1) | [arXiv](http://arxiv.org/abs/2601.07830v1)
 
 ---
 
-## 9. [3D CoCa v2: Contrastive Learners with Test-Time Search for Generalizable Spatial Intelligence](http://arxiv.org/abs/2601.06496v1)
+## 4. [MOSAIC-GS: Monocular Scene Reconstruction via Advanced Initialization for Complex Dynamic Environments](http://arxiv.org/abs/2601.05368v1)
 
-**Authors:** Hao Tang, Ting Huang, Zeyu Zhang
+**Authors:** Svitlana Morkva, Maximum Wilder-Smith, Michael Oechsle, Alessio Tonioni, Marco Hutter, et al. (+1 more)
 
-**Published:** 2026-01-10
+**Published:** 2026-01-08
 
 **Categories:** cs.CV
 
-**Relevance Score:** 0.385
+**Relevance Score:** 0.366
 
 **Topic:** Computer Vision
 
-**Abstract:** Spatial intelligence refers to the ability to perceive, reason about, and describe objects and their relationships within three-dimensional environments, forming a foundation for embodied perception and scene understanding. 3D captioning aims to describe 3D scenes in natural language; however, it re...
+**Abstract:** We present MOSAIC-GS, a novel, fully explicit, and computationally efficient approach for high-fidelity dynamic scene reconstruction from monocular videos using Gaussian Splatting. Monocular reconstruction is inherently ill-posed due to the lack of sufficient multiview constraints, making accurate r...
 
-[PDF](https://arxiv.org/pdf/2601.06496v1) | [arXiv](http://arxiv.org/abs/2601.06496v1)
+[PDF](https://arxiv.org/pdf/2601.05368v1) | [arXiv](http://arxiv.org/abs/2601.05368v1)
 
 ---
 
-## 10. [Stable Language Guidance for Vision-Language-Action Models](http://arxiv.org/abs/2601.04052v1)
+## 5. [SC-MII: Infrastructure LiDAR-based 3D Object Detection on Edge Devices for Split Computing with Multiple Intermediate Outputs Integration](http://arxiv.org/abs/2601.07119v1)
 
-**Authors:** Zhihao Zhan, Yuhao Chen, Jiaying Zhou, Qinhan Lv, Hao Liu, et al. (+3 more)
+**Authors:** Taisuke Noguchi, Takayuki Nishio, Takuya Azumi
 
-**Published:** 2026-01-07
+**Published:** 2026-01-12
 
-**Categories:** cs.RO, cs.CL
+**Categories:** cs.DC, cs.CV
 
-**Relevance Score:** 0.383
+**Relevance Score:** 0.365
 
-**Topic:** Robotics Manipulation
+**Topic:** Computer Vision
 
-**Abstract:** Vision-Language-Action (VLA) models have demonstrated impressive capabilities in generalized robotic control; however, they remain notoriously brittle to linguistic perturbations. We identify a critical ``modality collapse'' phenomenon where strong visual priors overwhelm sparse linguistic signals, ...
+**Abstract:** 3D object detection using LiDAR-based point cloud data and deep neural networks is essential in autonomous driving technology. However, deploying state-of-the-art models on edge devices present challenges due to high computational demands and energy consumption. Additionally, single LiDAR setups suf...
 
-[PDF](https://arxiv.org/pdf/2601.04052v1) | [arXiv](http://arxiv.org/abs/2601.04052v1)
+[PDF](https://arxiv.org/pdf/2601.07119v1) | [arXiv](http://arxiv.org/abs/2601.07119v1)
+
+---
+
+## 6. [Fast Multi-Stack Slice-to-Volume Reconstruction via Multi-Scale Unrolled Optimization](http://arxiv.org/abs/2601.07519v1)
+
+**Authors:** Margherita Firenze, Sean I. Young, Clinton J. Wang, Hyuk Jin Yun, Elfar Adalsteinsson, et al. (+3 more)
+
+**Published:** 2026-01-12
+
+**Categories:** eess.IV, cs.CV
+
+**Relevance Score:** 0.358
+
+**Topic:** Computer Vision
+
+**Abstract:** Fully convolutional networks have become the backbone of modern medical imaging due to their ability to learn multi-scale representations and perform end-to-end inference. Yet their potential for slice-to-volume reconstruction (SVR), the task of jointly estimating 3D anatomy and slice poses from mis...
+
+[PDF](https://arxiv.org/pdf/2601.07519v1) | [arXiv](http://arxiv.org/abs/2601.07519v1)
+
+---
+
+## 7. [From Rays to Projections: Better Inputs for Feed-Forward View Synthesis](http://arxiv.org/abs/2601.05116v1)
+
+**Authors:** Zirui Wu, Zeren Jiang, Martin R. Oswald, Jie Song
+
+**Published:** 2026-01-08
+
+**Categories:** cs.CV
+
+**Relevance Score:** 0.355
+
+**Topic:** Computer Vision
+
+**Abstract:** Feed-forward view synthesis models predict a novel view in a single pass with minimal 3D inductive bias. Existing works encode cameras as Plücker ray maps, which tie predictions to the arbitrary world coordinate gauge and make them sensitive to small camera transformations, thereby undermining geome...
+
+[PDF](https://arxiv.org/pdf/2601.05116v1) | [arXiv](http://arxiv.org/abs/2601.05116v1)
+
+---
+
+## 8. [CoV: Chain-of-View Prompting for Spatial Reasoning](http://arxiv.org/abs/2601.05172v2)
+
+**Authors:** Haoyu Zhao, Akide Liu, Zeyu Zhang, Weijie Wang, Feng Chen, et al. (+3 more)
+
+**Published:** 2026-01-08
+
+**Categories:** cs.CV, cs.AI
+
+**Relevance Score:** 0.353
+
+**Topic:** Computer Vision
+
+**Abstract:** Embodied question answering (EQA) in 3D environments often requires collecting context that is distributed across multiple viewpoints and partially occluded. However, most recent vision--language models (VLMs) are constrained to a fixed and finite set of input views, which limits their ability to ac...
+
+[PDF](https://arxiv.org/pdf/2601.05172v2) | [arXiv](http://arxiv.org/abs/2601.05172v2)
+
+---
+
+## 9. [Dual-Level Models for Physics-Informed Multi-Step Time Series Forecasting](http://arxiv.org/abs/2601.07640v1)
+
+**Authors:** Mahdi Nasiri, Johanna Kortelainen, Simo Särkkä
+
+**Published:** 2026-01-12
+
+**Categories:** stat.ML, cs.LG
+
+**Relevance Score:** 0.351
+
+**Topic:** Machine Learning
+
+**Abstract:** This paper develops an approach for multi-step forecasting of dynamical systems by integrating probabilistic input forecasting with physics-informed output prediction. Accurate multi-step forecasting of time series systems is important for the automatic control and optimization of physical processes...
+
+[PDF](https://arxiv.org/pdf/2601.07640v1) | [arXiv](http://arxiv.org/abs/2601.07640v1)
+
+---
+
+## 10. [Mesh4D: 4D Mesh Reconstruction and Tracking from Monocular Video](http://arxiv.org/abs/2601.05251v1)
+
+**Authors:** Zeren Jiang, Chuanxia Zheng, Iro Laina, Diane Larlus, Andrea Vedaldi
+
+**Published:** 2026-01-08
+
+**Categories:** cs.CV
+
+**Relevance Score:** 0.351
+
+**Topic:** Computer Vision
+
+**Abstract:** We propose Mesh4D, a feed-forward model for monocular 4D mesh reconstruction. Given a monocular video of a dynamic object, our model reconstructs the object's complete 3D shape and motion, represented as a deformation field. Our key contribution is a compact latent space that encodes the entire anim...
+
+[PDF](https://arxiv.org/pdf/2601.05251v1) | [arXiv](http://arxiv.org/abs/2601.05251v1)
 
 ---
