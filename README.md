@@ -1,4 +1,4 @@
-# arXiv Paper Recommendation System
+# Journal Club: arXiv Paper Recommendation System
 
 A free, automated system to curate weekly/daily must-read research papers from arXiv based on your research interests.
 
@@ -14,8 +14,6 @@ The digests are automatically updated every Monday at 9 AM UTC.
 - Rank papers using semantic similarity to your research interests
 - Generate formatted digests (Markdown, HTML, plain text)
 - Track previously read papers to avoid duplicates
-- Free automation via GitHub Actions
-- Multiple delivery options (GitHub Pages, Email, Telegram, RSS)
 
 ## Requirements
 
@@ -63,12 +61,6 @@ python src/generate_digest.py
 cat output/digest_latest.md
 ```
 
-### Automated Run
-
-The system can run automatically via GitHub Actions every week (Monday 9 AM UTC by default).
-
-See `.github/workflows/weekly-digest.yml` for configuration.
-
 ## Project Structure
 
 ```
@@ -87,18 +79,7 @@ journal_club/
 └── README.md
 ```
 
-## Cost
-
-**$0 per month** - Everything runs on free services:
-- arXiv API: Free, unlimited
-- GitHub: Free (public repos, 2000 Actions minutes/month)
-- GitHub Pages: Free hosting
-- Sentence Transformers: Free, runs locally or in Actions
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-MIT License
